@@ -1,0 +1,36 @@
+using UnityEngine;
+using System;
+
+public class Exercise02 : MonoBehaviour
+{
+    private void Awake()
+    {
+
+        bool result = false;
+        int x = 5, y = 2;
+
+        //&&연산자 (두 조건이 모두 참일 때만 참)
+
+        result = x > 2 && y != 5;
+        Debug.Log($"{x} > 2 &&{y} != 5 ={result}");
+
+        // ||연산자(두 조건이 모두 거짓일 때만 거짓)
+
+        result = x < 4 || y == 3;
+        Debug.Log($"{x} < 4 || {y} ==3={result}");
+
+        // !연산자(참은 거짓으로 거짓은 참으로)
+
+        Debug.Log($"{x} < 4 || {y} ==3 ={result});
+        result = !result;
+        Debug.Log(result);
+
+        //조건(삼항) 연산자
+
+        int hp = -10;
+        hp = hp < 0 ? 0 : hp;
+        Debug.Log("체력 : " + hp);
+
+     }
+ }
+     
