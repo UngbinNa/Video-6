@@ -1,0 +1,17 @@
+using UnityEngine;
+using System;
+
+public class Exercise02 : MonoBehaviour
+{
+    private void Awake()
+    {
+
+        int = 5, y = 2;
+        Debug.Log(&"{x}>{y} = {x>y}");
+        Debug.Log(&"{x}<{y} = {x<y}");
+        Debug.Log(&"{x}<={y} = {x<=y}");
+        Debug.Log(&"{x}>={y} = {x>+y}");
+        Debug.Log(&"{x}=={y} = {x==y}");
+        Debug.Log(&"{x}!={y} = {x!=y}");
+    }
+}
