@@ -1,0 +1,22 @@
+using UnityEngine;
+using System;
+
+public class Exercise02 : MonoBehaviour
+{
+    private void Awake()
+    {
+        int a = 10;
+        Debug.Log(a);
+
+        a++;
+        Debug.Log(a);
+
+        ++a;
+        Debug.Log(a);
+
+        Debug.Log(a++); //값부터 대입 후증가
+        Debug.Log(a);
+        Debug.Log(++a);
+        Debug.Log(a);
+  }
+}
